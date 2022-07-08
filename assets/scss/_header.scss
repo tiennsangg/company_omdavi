@@ -1,0 +1,54 @@
+
+.header {
+    &_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 102px;
+        padding-left: 68px;
+        padding-right: 82px;
+        align-items: center;
+        background-color: #262524;
+        position: relative;
+        &_menu {
+            a {
+                color: white;
+            }
+            padding-top: 15px;
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 24px;
+            gap: 0 32px;
+            list-style-type: none;
+            display:flex;
+        }
+        &_nav {
+            padding-top: 15px;
+            display: flex;
+            list-style-type: none;
+            gap: 0 35px;
+        }
+        &_lang {
+            display: flex;
+            gap: 11px;
+            padding-right: 20px;
+            padding-left: 110.5px;
+        }
+    }
+
+    &_noti {
+        padding: 2px;
+        height: 16px;
+        width: 16px;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 10px;
+        font-weight: bold;
+        background-color: #F4B73C;
+        position: absolute;
+        top: 37px;
+        right: 70px;
+        bottom: 49px;
+    }
+
+}

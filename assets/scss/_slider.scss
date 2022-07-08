@@ -1,0 +1,45 @@
+.slide {
+    &_container {
+        height: 712px;
+        width: 100%;
+        position: relative;
+    }
+    .carousel-caption {
+        font-family: $font-primary;
+        position: absolute;
+        color: white;
+        width: 450px;
+        top: 209px;
+        left: 80px;
+        text-transform: uppercase;
+        text-align: start;
+        font-weight: 700;
+        font-weight: bold;
+        font-style: italic;
+        h1 {
+            display: flex;
+            font-size: 64px;
+            line-height: 67.2px;
+        }
+        p {
+            text-transform: lowercase;
+            font-size: 24px;
+            font-style: normal;
+            line-height: 36px;
+            font-weight: 700;
+        }
+
+        span {
+            text-transform: lowercase; 
+            font-size: 48px;
+            line-height: 72px;
+            font-weight: 400; 
+            font-style: normal;
+            strong {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+

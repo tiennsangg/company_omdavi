@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98e932dc3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="stylesheet" href="../assets/css/product.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" style="background-color: #262524; color: white;">
+            <div class="container">
+                <div class="h_container">
+                    <div class="header_logo"><img src="../assets/img/logo/header_logo.png" style="max-height: 64px; max-width: 203px" alt=""></div>
+                    <div class="header_menu">
+                        <ul class="ul_header_menu">
+                            <li>
+                                <a href="#">SẢN PHẨM MỚI</a> &nbsp;&nbsp;
+                                <span class="header_down_product"><img src="../assets/img/svg/chevron-down.png" alt=""></span>
+                            </li>
+                            <li><a href="#">Áo</a></li>
+                            <li><a href="#">Quần</a></li>
+                            <li><a href="#">Vest</a></li>
+                            <li><a href="#">Phụ kiện</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Showroom</a></li>
+                        </ul>
+                    </div>
+                    <div class="header_right">
+                        <ul class="ul_header_right">
+                            <li><a href="#"><img src="../assets/img/svg/nav item.png" alt=""></a></li>
+                            <li><a href="#"><img src="../assets/img/svg/search.png" alt=""></a></li>
+                            <li><a href="#"><img src="../assets/img/svg/user.png" alt=""></a></li>
+                            <li>
+                                <a href="#"><img src="../assets/img/svg/shopping-cart.png" alt="">
+                                <span class="noti_cart"><img src="../assets/img/svg/Group 9.png" alt=""></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="image_header">
+            <a href="#"><img src="../assets/img/slider/image 21.png" style="width: 100%" alt=""></a>
+        </section>
+        <section class="slide_category_product">
+            <div class="container">
+                <div class="s_container">
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 127.png" alt="">
+                        <span>Áo sơ mi dài tay</span></a>
+                    </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 128.png" alt="">
+                        <span>Áo polo</span></a></a></div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 129.png" alt="">
+                        <span>Áo sơ mi trắng</span></a>
+                        </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 127.png" alt="">
+                        <span>Áo sơ mi dài tay</span></a>
+                    </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 128.png" alt="">
+                        <span>Áo polo</span></a>
+                    </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 129.png" alt="">
+                        <span>Áo sơ mi trắng</span></a>
+                    </div>
+                    <span class="s_button_left"><a href="#"><img src="../assets/img/svg/nav_left.png" alt=""></a></span>
+                    <span class="s_button_right"><a href="#"><img src="../assets/img/svg/nav_right.png" alt=""></a></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="directional">
+            <div class="container">
+                <div class="d_container">
+                    <div class="directional_separator">
+                        <a href="#">HomeShop</a>
+                        <span class="separator">► &nbsp;</span>
+                        <a href="#">Allproduct</a>
+                        <span class="separator">► &nbsp;</span>
+                        <a href="#"> Áo phông</a>
+                    </div>
+                    <div class="directional_filter">
+                        <div class="directional_filter_heading">Áo thun / Áo phông</div>
+                        <div class="directional_filter_filter">
+                            <div class="filter">
+                                <button style="border: none; background-color:white;">
+                                    <span>BỘ LỌC &nbsp; <img src="../assets/img/svg/Vector.png" alt="" style="display:inline"></span>
+                                </button>
+                            </div>
+                            <div class="filter_2">
+                                <select style="width: 130px; border: none;">
+                                    <option value="1">Hàng mới về</option>
+                                    <option value="2">Sản phẩm bán chạy nhất</option>
+                                    <option value="3">Giá thấp -> cao</option>
+                                    <option value="4">Giá cao -> thấp</option>
+                                </select>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toggle_filter"></div>
+        </section>
+
+        <section class="product">
+            <div class="container">
+                <div class="p_container">
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_1">
+                        <div class="product_up">
+                            <a href="#">
+                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="button_buy_now">
+                                    <button>Mua ngay</button>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="product_down">
+                            <div class="product_select_option">
+                                <a href=""><div class="select_option select_option_1"></div></a>
+                                <a href=""><div class="select_option select_option_2"></div></a>
+                                <a href=""><div class="select_option select_option_3"></div></a>
+                            </div>
+                            <div class="product_info">
+                                <div class="product_name">
+                                    <a>Áo Polo Nam 6APCB002DEN</a>
+                                </div>
+                                <div class="product_price">
+                                    <div><ins>
+                                        <span class="price" id="price_1_1"></span>
+                                    </ins></div>
+                                    <div><del> 
+                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                        <span class="price_sale" id="price_1"></span>
+                                    </del></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+    <script src="../assets/js/formatPrice.js"></script>
+</body>
+</html>

@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,600;0,700;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/js/main.js">
     <script src="https://kit.fontawesome.com/98e932dc3d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
@@ -27,13 +28,21 @@
     <div class="wrapper">
         <header class="header">
             <div class="header_container">
-                <span class="logo" style="padding-right: 152.5px">
-                    <img src="./assets/img/logo/2 1.png" width="203px" height="64px">
-                </span>
+                <div class="logo">
+                    <img src="./assets/img/logo/2 1.png">
+                </div>
                 <ul class="header_container_menu">
                     <li class="menu-item-new" style="color: white;">
-                        <span style="font-weight: 600;">SẢN PHẨM MỚI</span> &nbsp;
+                        <div class="sub_menu">
+                        <span style="font-weight: 600;"><a href="#">SẢN PHẨM MỚI</a></span> &nbsp;
                         <i class="fa fa-chevron-down f-lg" style="color: #828282;" aria-hidden="true"></i>
+
+                        <div class="header_sub_1">
+                            <div class="sub_1"> <a href>Sản phẩm mới 1</a></div>
+                            <div class="sub_1"> <a href>Sản phẩm mới 2</a></div>
+                            <div class="sub_1"> <a href>Sản phẩm mới 3</a></div>
+                        </div>
+                        </div>  
                     </li>
 
                     <li class="menu-item">
@@ -64,6 +73,10 @@
                 <div class="header_container_lang">
                     <img src="assets/img/logo/image 20.png" width="24px" height="15px">
                     <i class="fa fa-chevron-down f-lg" aria-hidden="true" style="color: #828282; font-weight: 600;"></i>
+                    <div class="lang_subnav">
+                        <div class="lang lang-eng"><a href="#">English &nbsp; <span><img src="assets/img/logo/5a1bc53dc95788.0643653615117694058247.png" width="24px" height="15px"></span></a></div>
+                        <div class="lang lang-vn"><a href="#">Tiếng Việt &nbsp; <span><img src="assets/img/logo/image 20.png" width="24px" height="15px"></span></a></div>
+                    </div>
                 </div>
 
                 <ul class="header_container_nav">
@@ -77,13 +90,6 @@
         </header>
         <div id="slider1" class="slide">
             <div id="carouselExampleCaptions" class="slide_container carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li style="width: 140px" data-target="#carouselExampleCaptions" data-slide-to="0" class="active">
-                    </li>
-                    <li style="width: 140px; background-color: #F2F2F2;" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li style="width: 140px; background-color: #F2F2F2;" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                    <li style="width: 140px; background-color: #F2F2F2;" data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                </ol>
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -121,6 +127,14 @@
                             <p>Sở hữu ngay những sản phẩm hot nhất năm 2022</p>
                         </div>
                     </div>
+                    
+                <ol class="carousel-indicators">
+                    <li style="width: 140px" data-target="#carouselExampleCaptions" data-slide-to="0" class="active">
+                    </li>
+                    <li style="width: 140px; background-color: #F2F2F2;" data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li style="width: 140px; background-color: #F2F2F2;" data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li style="width: 140px; background-color: #F2F2F2;" data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                </ol>
                 </div>
                 <button style="margin-left: -60px;" class="carousel-control-prev" type="button"
                     data-target="#carouselExampleCaptions" data-slide="prev">
@@ -136,7 +150,7 @@
         </div>
         <main class="main">
             <div class="main_container">
-                <h1 style="padding-left: 80px;"><strong>Sản phẩm mới</strong></h1>
+                <h1 class="heading_new_product" style="padding-left: 80px;"><strong>Sản phẩm mới</strong></h1>
                 <div class="main_container_new_product">
                     <div class="new_product_image1"><a href="#">
                             <img alt="" src="assets/img/product/image 7.png" style="width: 290px;">
@@ -178,7 +192,7 @@
 
                 <div class="main_container_slide1">
                     <div class="background-slide">
-                        <img src="assets/img/slider/Rectangle 121.png" height="506px" width="1440px"
+                        <img src="assets/img/slider/Rectangle 121.png" height="506px;" width="100%;"
                             style="margin-left: 0px;">
                     </div>
                     <div class="main_slide1">
@@ -224,7 +238,7 @@
                 <div class="main_container_featured_product">
                     <div class="featured_header">
                         <div class="featured_heading">
-                            <h1>Sản phẩm nổi bật</h1>
+                            <h1 class="h1_heading">Sản phẩm nổi bật</h1>
                         </div>
                         <div class="featured_filter">
                             <a style="text-decoration: none;" href="#">
@@ -473,30 +487,30 @@
                                 </p>
                             </div>
                             <div class="infomation_2">
-                                <p>Về thương hiệu</p>
-                                <p>Báo chí nói về Biluxury</p>
-                                <p>Mở đại lý</p>
-                                <p>Hệ thống showroom</p>
-                                <p>Tuyển dụng & Việc làm</p>
-                                <p>Tin khuyến mại</p>
+                                <p><a href="#">Về thương hiệu</a></p>
+                                <p><a href="#">Báo chí nói về Biluxury</a></p>
+                                <p><a href="#">Mở đại lý</a></p>
+                                <p><a href="#">Hệ thống showroom</a></p>
+                                <p><a href="#">Tuyển dụng & Việc làm</a></p>
+                                <p><a href="#">Tin khuyến mại</a></p>
                             </div>
                             <div class="infomation_3">
-                                <p>Chính sách Membership</p>
-                                <p>Chính sách thanh toán</p>
-                                <p>Hướng dẫn mua hàng</p>
-                                <p>Chính sách đổi sản phẩm</p>
-                                <p>FAQ</p>
+                                <p><a href="#">Chính sách Membership</a></p>
+                                <p><a href="#">Chính sách thanh toán</a></p>
+                                <p><a href="#">Hướng dẫn mua hàng</a></p>
+                                <p><a href="#">Chính sách đổi sản phẩm</a></p>
+                                <p><a href="#">FAQ</a></p>
                             </div>
                             <div class="infomation_4">
-                                <p>Facebook</p>
-                                <p>Instagram</p>
-                                <p>Youtube</p>
-                                <p>Google</p>
+                                <p><a href="#">Facebook</a></p>
+                                <p><a href="#">Instagram</a></p>
+                                <p><a href="#">Youtube</a></p>
+                                <p><a href="#">Google</a></p>
                             </div>
                             <div class="infomation_5">
                                 <p>Viet Nam &nbsp; <i class="fa fa-sort-desc" aria-hidden="true"></i></p>
                                 <p>0986.820.750</p>
-                                <p>helpsupport@gmail.com</p>
+                                <p><a href="#">helpsupport@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -510,6 +524,8 @@
     </div>
     </main>
     </div>
+    </div>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

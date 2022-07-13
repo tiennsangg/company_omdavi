@@ -4,6 +4,8 @@ const numberFormat = new Intl.NumberFormat('vi-VN', { //nhận 2 fil style kiể
     });
     const price = numberFormat.format(1000000);
     console.log(price)
+    document.getElementById("price_1_1").innerHTML = price;
+    document.getElementById("price_1").innerHTML = price;
     document.getElementById("price1").innerHTML = price;
     document.getElementById("price2").innerHTML = price;
     document.getElementById("price3").innerHTML = price;

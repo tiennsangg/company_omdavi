@@ -27,10 +27,19 @@
                     <div class="header_menu">
                         <ul class="ul_header_menu">
                             <li>
-                                <a href="#">SẢN PHẨM MỚI</a> &nbsp;&nbsp;
-                                <span class="header_down_product"><img src="../assets/img/svg/chevron-down.png" alt=""></span>
+                                <div class="header_sub_hover">    
+                                    <div class="header_sub" style="position: relative">
+                                        <a href="#">SẢN PHẨM MỚI</a>
+                                    </div>
+                                    <span class="header_down_product"><img src="../assets/img/svg/header_down_product.png" alt=""> &nbsp;&nbsp;&nbsp;</span>
+                                    <ul class="header_sub_1">
+                                        <li><a href>Sản phẩm mới 1</a></li>
+                                        <li><a href>Sản phẩm mới 2</a></li>
+                                        <li><a href>Sản phẩm mới 3</a></li>
+                                    </ul>
+                                </div>
                             </li>
-                            <li><a href="#">Áo</a></li>
+                            <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Áo</a></li>
                             <li><a href="#">Quần</a></li>
                             <li><a href="#">Vest</a></li>
                             <li><a href="#">Phụ kiện</a></li>
@@ -40,7 +49,15 @@
                     </div>
                     <div class="header_right">
                         <ul class="ul_header_right">
-                            <li><a href="#"><img src="../assets/img/svg/nav item.png" alt=""></a></li>
+                            <li class="hello">
+                                <div class="language"><a href="#"><img src="../assets/img/svg/nav item.png" alt=""></a>
+                                    <ul class="language_subnav">
+                                        <li class="lang lang-eng"><a href="#">English &nbsp; <span><img src="../assets/img/logo/header_eng.png" width="24px" height="15px"></span></a></li>
+                                        <li class="lang lang-vn"><a href="#">Tiếng Việt &nbsp; <span><img src="../assets/img/logo/header_vni.png" width="24px" height="15px"></span></a></li>
+                                    </ul>
+                                </div>
+                                
+                            </li>
                             <li><a href="#"><img src="../assets/img/svg/search.png" alt=""></a></li>
                             <li><a href="#"><img src="../assets/img/svg/user.png" alt=""></a></li>
                             <li>
@@ -102,7 +119,7 @@
                         <div class="directional_filter_heading">Áo thun / Áo phông</div>
                         <div class="directional_filter_filter">
                             <div class="filter">
-                                <button style="border: none; background-color:white;">
+                                <button style="border: none; background-color:white;" onclick="toggle_filter()">
                                     <span>BỘ LỌC &nbsp; <img src="../assets/img/svg/Vector.png" alt="" style="display:inline"></span>
                                 </button>
                             </div>
@@ -118,7 +135,43 @@
                         </div>
                     </div>
                 </div>
-                <div class="fillter_togger"></div>
+                <div class="filter_3">
+                    <div class="filter_3_1">
+                        <p>Bộ lọc</p>
+                        <span><a href="#" onclick="toggle_filter()"><img src="../assets/img/svg/x_close.png" alt=""></a></span>
+                    </div>
+                    <div class="filter_3_2">
+                        <div class="filter_by_price">
+                            <p>Lọc theo giá</p>
+                        </div>
+                    </div>
+                    <div class="filter_3_3">
+                        <div class="filter_by_category">
+                            <p>Danh mục</p>
+                            <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
+                        </div>
+                    </div>
+                    <div class="filter_3_4">
+                        <div class="filter_by_color">
+                            <p>Lọc theo màu sắc</p>
+                            <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
+                        </div>
+                    </div>
+                    <div class="filter_3_5">
+                        <div class="filter_by_size">
+                            <p>Lọc theo size</p>
+                            <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
+                        </div>
+                    </div>
+                    <div class="filter_3_6">
+                        <div class="button_del_filter">
+                            <button>Xóa lọc</button>
+                        </div>
+                        <div class="button_apply_filter">
+                            <button>Áp dụng</button>
+                        </div>
+                    </div>
+                </div>
         </section>
 
         <section class="product">
@@ -876,5 +929,6 @@
         integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
         crossorigin="anonymous"></script>
     <script src="../assets/js/formatPrice.js"></script>
+    <script src="../assets/js/fillter_toggle.js"></script>
 </body>
 </html>

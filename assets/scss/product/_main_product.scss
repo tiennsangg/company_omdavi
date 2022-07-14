@@ -68,7 +68,7 @@
     }
 }
 
-.toggle_filter {
+.fillter_toggle {
     background-color: black; 
     width: 410px; 
     height:1331px;
@@ -117,10 +117,12 @@
         display: none;
     }
     .product_up:hover {
+        img {
+            opacity: 0.5;
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
         .button_buy_now {
-            img {
-                opacity: 0.3;
-            }
             display: block;
         }
     }
@@ -161,3 +163,99 @@
     }
 
 }
+    .paging {
+        padding-top: 48px;
+        &_ul {
+            display: flex;
+            list-style-type: none;
+            gap: 0 10px;
+            justify-content: center;
+            a {
+                color: $black-text-primary;
+            }
+            .active {
+                border-bottom: 1px solid $black-text-primary;
+            }
+        }
+    }
+
+    #footer {
+        width: 100%;
+        background-color: #EEEEEE;
+        font-size: 16px;
+        font-weight: 400;
+        a {
+            text-decoration: none;
+            color: #4F4F4F;
+        }
+        img {
+            display: inline;
+        }
+        li {
+            padding-top: 16px;
+            list-style-type: none;
+        }
+        .col_info_1 {
+            padding: 0;
+            p {
+                padding-right: 46px;
+            }
+        }
+        p {
+            font-size: 15px;
+            padding-top: 16px;
+            color: #828282;
+        }
+        .col_info_2 {
+            padding: 0;
+            padding-left: 56px;
+        }
+        .col_info_4 {
+            padding: 0;
+            padding-left: 65px;
+        }
+        .col_info_3 {
+            padding: 0;
+        }
+        .col_info_5 {
+            padding: 0;
+            select {
+                width: 100px;
+                border: none;
+                background-color: #EEEEEE;
+                color: #828282;
+                border-bottom: 1px solid #828282;
+            }
+        }
+        .info_5_ul li:nth-child(2) {
+            font-weight: 700;
+            a {
+                color:black;
+            }
+        }
+    }
+    .footer_up {
+        padding-top: 54px;
+    }
+    
+    .footer_down {
+        background-color: #D9D9D9;
+        margin-top: 37px;
+    }
+    .footer_down_left {
+        padding-top: 16px;
+        width: 100%;
+        height: 46px;
+        font-size: 13px;
+    }
+    .footer_down_right {
+        width: 100%;
+        height: 46px;
+        font-size: 13px;
+    }
+    .footer_down_ul {
+        display: flex;
+    }
+
+    
+    

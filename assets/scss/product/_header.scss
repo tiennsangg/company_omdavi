@@ -1,3 +1,10 @@
+#header {
+    background-color: #262524;
+    color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 10000;
+}
 .h_container {
     display: flex;
     justify-content: space-between;
@@ -57,5 +64,8 @@
     position: absolute;
     top: 11%;
     left: 18%;
+}
+.image_header {
+    padding-top: 5.9%;
 }
 

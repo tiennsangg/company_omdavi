@@ -49,6 +49,14 @@ img {
   object-fit: cover;
 }
 
+#header {
+  background-color: #262524;
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+}
+
 .h_container {
   display: flex;
   justify-content: space-between;
@@ -110,6 +118,10 @@ img {
   position: absolute;
   top: 11%;
   left: 18%;
+}
+
+.image_header {
+  padding-top: 5.9%;
 }
 
 .s_container {
@@ -179,7 +191,7 @@ img {
   color: #262524;
 }
 
-.toggle_filter {
+.fillter_toggle {
   background-color: black;
   width: 410px;
   height: 1331px;
@@ -226,11 +238,13 @@ img {
   align-items: center;
   display: none;
 }
+.p_container .product_up:hover img {
+  opacity: 0.5;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
 .p_container .product_up:hover .button_buy_now {
   display: block;
-}
-.p_container .product_up:hover .button_buy_now img {
-  opacity: 0.3;
 }
 .p_container .product_select_option {
   display: flex;
@@ -263,6 +277,104 @@ img {
 }
 .p_container .price_sale {
   color: #4F4F4F;
+}
+
+.paging {
+  padding-top: 48px;
+}
+.paging_ul {
+  display: flex;
+  list-style-type: none;
+  gap: 0 10px;
+  justify-content: center;
+}
+.paging_ul a {
+  color: #262524;
+}
+.paging_ul .active {
+  border-bottom: 1px solid #262524;
+}
+
+#footer {
+  width: 100%;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  font-weight: 400;
+}
+#footer a {
+  text-decoration: none;
+  color: #4F4F4F;
+}
+#footer img {
+  display: inline;
+}
+#footer li {
+  padding-top: 16px;
+  list-style-type: none;
+}
+#footer .col_info_1 {
+  padding: 0;
+}
+#footer .col_info_1 p {
+  padding-right: 46px;
+}
+#footer p {
+  font-size: 15px;
+  padding-top: 16px;
+  color: #828282;
+}
+#footer .col_info_2 {
+  padding: 0;
+  padding-left: 56px;
+}
+#footer .col_info_4 {
+  padding: 0;
+  padding-left: 65px;
+}
+#footer .col_info_3 {
+  padding: 0;
+}
+#footer .col_info_5 {
+  padding: 0;
+}
+#footer .col_info_5 select {
+  width: 100px;
+  border: none;
+  background-color: #EEEEEE;
+  color: #828282;
+  border-bottom: 1px solid #828282;
+}
+#footer .info_5_ul li:nth-child(2) {
+  font-weight: 700;
+}
+#footer .info_5_ul li:nth-child(2) a {
+  color: black;
+}
+
+.footer_up {
+  padding-top: 54px;
+}
+
+.footer_down {
+  background-color: #D9D9D9;
+  margin-top: 37px;
+}
+
+.footer_down_left {
+  padding-top: 16px;
+  width: 100%;
+  height: 46px;
+  font-size: 13px;
+}
+
+.footer_down_right {
+  width: 100%;
+  height: 46px;
+  font-size: 13px;
+}
+
+.footer_down_ul {
+  display: flex;
 }
 
 /*# sourceMappingURL=product.css.map */

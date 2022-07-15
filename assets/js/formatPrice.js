@@ -45,3 +45,6 @@ const numberFormat = new Intl.NumberFormat('vi-VN', { //nhận 2 fil style kiể
     document.getElementById("price_20").innerHTML = price;
     document.getElementById("price_20_20").innerHTML = price;
 
+
+
+    

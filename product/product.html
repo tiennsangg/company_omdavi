@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,23 +16,29 @@
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-        <link rel="stylesheet" href="../assets/css/product.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/product.css">
     <title>Omdavi - Sản phấm</title>
 </head>
+
 <body>
     <div class="wrapper">
         <header id="header" style="background-color: #262524; color: white;">
             <div class="container">
                 <div class="h_container">
-                    <div class="header_logo"><img src="../assets/img/logo/header_logo.png" style="max-height: 64px; max-width: 203px" alt=""></div>
+                    <div class="header_logo"><img src="../assets/img/logo/header_logo.png"
+                             alt=""></div>
                     <div class="header_menu">
                         <ul class="ul_header_menu">
                             <li>
-                                <div class="header_sub_hover">    
+                                <div class="header_sub_hover">
                                     <div class="header_sub" style="position: relative">
                                         <a href="#">SẢN PHẨM MỚI</a>
                                     </div>
-                                    <span class="header_down_product"><img src="../assets/img/svg/header_down_product.png" alt=""> &nbsp;&nbsp;&nbsp;</span>
+                                    <span class="header_down_product"><img
+                                            src="../assets/img/svg/header_down_product.png" alt="">
+                                        &nbsp;&nbsp;&nbsp;</span>
                                     <ul class="header_sub_1">
                                         <li><a href>Sản phẩm mới 1</a></li>
                                         <li><a href>Sản phẩm mới 2</a></li>
@@ -52,18 +59,27 @@
                             <li class="hello">
                                 <div class="language"><a href="#"><img src="../assets/img/svg/nav item.png" alt=""></a>
                                     <ul class="language_subnav">
-                                        <li class="lang lang-eng"><a href="#">English &nbsp; <span><img src="../assets/img/logo/header_eng.png" width="24px" height="15px"></span></a></li>
-                                        <li class="lang lang-vn"><a href="#">Tiếng Việt &nbsp; <span><img src="../assets/img/logo/header_vni.png" width="24px" height="15px"></span></a></li>
+                                        <li class="lang lang-eng"><a href="#">English &nbsp; <span><img
+                                                        src="../assets/img/logo/header_eng.png" width="24px"
+                                                        height="15px"></span></a></li>
+                                        <li class="lang lang-vn"><a href="#">Tiếng Việt &nbsp; <span><img
+                                                        src="../assets/img/logo/header_vni.png" width="24px"
+                                                        height="15px"></span></a></li>
                                     </ul>
                                 </div>
-                                
+
                             </li>
-                            <li><a href="#"><img src="../assets/img/svg/search.png" alt=""></a></li>
+                            <li><a href="#"><img src="../assets/img/svg/search.png" width="100%" alt=""></a></li>
                             <li><a href="#"><img src="../assets/img/svg/user.png" alt=""></a></li>
                             <li>
                                 <a href="#"><img src="../assets/img/svg/shopping-cart.png" alt="">
-                                <span class="noti_cart"><img src="../assets/img/svg/Group 9.png" alt=""></span>
+                                    <span class="noti_cart"><img src="../assets/img/svg/Group 9.png" alt=""></span>
                                 </a>
+                            </li>
+                            <li>
+                                <div class="nav_res">
+                                    <img src="../assets/img/svg/nav_res.png" alt="" style="max-width: 20px;">
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -77,31 +93,49 @@
             <div class="container">
                 <div class="s_container">
                     <div class="category_product">
-                        <a href=""><img src="../assets/img/product/Rectangle 127.png" alt="">
-                        <span>Áo sơ mi dài tay</span></a>
+                        <a href=""><img src="../assets/img/product/Rectangle 127.png"  alt="">
+                            <span>Áo sơ mi dài tay</span></a>
                     </div>
                     <div class="category_product">
-                        <a href=""><img src="../assets/img/product/Rectangle 128.png" alt="">
-                        <span>Áo polo</span></a></a></div>
-                    <div class="category_product">
-                        <a href=""><img src="../assets/img/product/Rectangle 129.png" alt="">
-                        <span>Áo sơ mi trắng</span></a>
-                        </div>
-                    <div class="category_product">
-                        <a href=""><img src="../assets/img/product/Rectangle 127.png" alt="">
-                        <span>Áo sơ mi dài tay</span></a>
+                        <a href=""><img src="../assets/img/product/Rectangle 128.png"  alt="">
+                            <span>Áo polo</span></a></a>
                     </div>
                     <div class="category_product">
-                        <a href=""><img src="../assets/img/product/Rectangle 128.png" alt="">
-                        <span>Áo polo</span></a>
+                        <a href=""><img src="../assets/img/product/Rectangle 129.png"  alt="">
+                            <span>Áo sơ mi trắng</span></a>
                     </div>
                     <div class="category_product">
-                        <a href=""><img src="../assets/img/product/Rectangle 129.png" alt="">
-                        <span>Áo sơ mi trắng</span></a>
+                        <a href=""><img src="../assets/img/product/Rectangle 127.png"  alt="">
+                            <span>Áo sơ mi dài tay</span></a>
                     </div>
-                    <span class="s_button_left"><a href="#"><img src="../assets/img/svg/nav_left.png" alt=""></a></span>
-                    <span class="s_button_right"><a href="#"><img src="../assets/img/svg/nav_right.png" alt=""></a></span>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 128.png"  alt="">
+                            <span>Áo polo</span></a>
+                    </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 129.png"  alt="">
+                            <span>Áo sơ mi trắng</span></a>
+                    </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 127.png"  alt="">
+                            <span>Áo sơ mi dài tay</span></a>
+                    </div>
+                    <div class="category_product">
+                        <a href=""><img src="../assets/img/product/Rectangle 127.png"  alt="">
+                            <span>Áo sơ mi dài tay</span></a>
+                    </div>
                 </div>
+
+                <!-- <div class="s_container">
+                    
+                    
+                    
+                    
+                    
+                "
+                    <span class="s_button_left"><a href="#"><img src="../assets/img/svg/nav_left.png"  alt=""></a></span>
+                    <span class="s_button_right"><a href="#"><img src="../assets/img/svg/nav_right.png" alt=""></a></span>
+                </div> -->
             </div>
         </section>
 
@@ -120,7 +154,8 @@
                         <div class="directional_filter_filter">
                             <div class="filter">
                                 <button style="border: none; background-color:white;" onclick="toggle_filter()">
-                                    <span>BỘ LỌC &nbsp; <img src="../assets/img/svg/Vector.png" alt="" style="display:inline"></span>
+                                    <span>BỘ LỌC &nbsp; <img src="../assets/img/svg/Vector.png" alt=""
+                                            style="display:inline"></span>
                                 </button>
                             </div>
                             <div class="filter_2">
@@ -132,46 +167,47 @@
                                 </select>
                             </div>
                         </div>
-                        </div>
                     </div>
                 </div>
-                <div class="filter_3">
-                    <div class="filter_3_1">
-                        <p>Bộ lọc</p>
-                        <span><a href="#" onclick="toggle_filter()"><img src="../assets/img/svg/x_close.png" alt=""></a></span>
-                    </div>
-                    <div class="filter_3_2">
-                        <div class="filter_by_price">
-                            <p>Lọc theo giá</p>
-                        </div>
-                    </div>
-                    <div class="filter_3_3">
-                        <div class="filter_by_category">
-                            <p>Danh mục</p>
-                            <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
-                        </div>
-                    </div>
-                    <div class="filter_3_4">
-                        <div class="filter_by_color">
-                            <p>Lọc theo màu sắc</p>
-                            <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
-                        </div>
-                    </div>
-                    <div class="filter_3_5">
-                        <div class="filter_by_size">
-                            <p>Lọc theo size</p>
-                            <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
-                        </div>
-                    </div>
-                    <div class="filter_3_6">
-                        <div class="button_del_filter">
-                            <button>Xóa lọc</button>
-                        </div>
-                        <div class="button_apply_filter">
-                            <button>Áp dụng</button>
-                        </div>
+            </div>
+            <div class="filter_3">
+                <div class="filter_3_1">
+                    <p>Bộ lọc</p>
+                    <span><a href="#" onclick="toggle_filter()"><img src="../assets/img/svg/x_close.png"
+                                alt=""></a></span>
+                </div>
+                <div class="filter_3_2">
+                    <div class="filter_by_price">
+                        <p>Lọc theo giá</p>
                     </div>
                 </div>
+                <div class="filter_3_3">
+                    <div class="filter_by_category">
+                        <p>Danh mục</p>
+                        <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
+                    </div>
+                </div>
+                <div class="filter_3_4">
+                    <div class="filter_by_color">
+                        <p>Lọc theo màu sắc</p>
+                        <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
+                    </div>
+                </div>
+                <div class="filter_3_5">
+                    <div class="filter_by_size">
+                        <p>Lọc theo size</p>
+                        <span><a href="#"><img src="../assets/img/svg/down_toggle.png" alt=""></a></span>
+                    </div>
+                </div>
+                <div class="filter_3_6">
+                    <div class="button_del_filter">
+                        <button>Xóa lọc</button>
+                    </div>
+                    <div class="button_apply_filter">
+                        <button>Áp dụng</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="product">
@@ -180,7 +216,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -189,9 +225,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -199,12 +241,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_1_1"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_1"></span>
-                                    </del></div>
+                                            <span class="price" id="price_1_1"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_1"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -212,8 +254,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -221,9 +263,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -231,12 +279,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_2_2"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_2"></span>
-                                    </del></div>
+                                            <span class="price" id="price_2_2"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_2"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -244,7 +292,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -253,9 +301,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -263,12 +317,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_3_3"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_3"></span>
-                                    </del></div>
+                                            <span class="price" id="price_3_3"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_3"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -276,8 +330,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -285,9 +339,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -295,12 +355,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_4_4"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_4"></span>
-                                    </del></div>
+                                            <span class="price" id="price_4_4"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_4"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -308,7 +368,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -317,9 +377,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -327,12 +393,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_5_5"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_5"></span>
-                                    </del></div>
+                                            <span class="price" id="price_5_5"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_5"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -340,8 +406,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -349,9 +415,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -359,12 +431,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_6_6"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_6"></span>
-                                    </del></div>
+                                            <span class="price" id="price_6_6"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_6"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -372,8 +444,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -381,9 +453,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -391,12 +469,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_7_7"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_7"></span>
-                                    </del></div>
+                                            <span class="price" id="price_7_7"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_7"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -404,7 +482,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -413,9 +491,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -423,12 +507,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_8_8"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_8"></span>
-                                    </del></div>
+                                            <span class="price" id="price_8_8"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_8"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -436,8 +520,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -445,9 +529,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -455,12 +545,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_9_9"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_9"></span>
-                                    </del></div>
+                                            <span class="price" id="price_9_9"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_9"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -468,7 +558,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -477,9 +567,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -487,12 +583,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_10_10"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_10"></span>
-                                    </del></div>
+                                            <span class="price" id="price_10_10"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_10"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -500,8 +596,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -509,9 +605,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -519,12 +621,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_11_11"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_11"></span>
-                                    </del></div>
+                                            <span class="price" id="price_11_11"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_11"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -532,7 +634,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -541,9 +643,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -551,12 +659,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_12_12"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_12"></span>
-                                    </del></div>
+                                            <span class="price" id="price_12_12"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_12"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -564,8 +672,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -573,9 +681,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -583,12 +697,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_13_13"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_13"></span>
-                                    </del></div>
+                                            <span class="price" id="price_13_13"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_13"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -596,7 +710,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -605,9 +719,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -615,12 +735,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_14_14"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_14"></span>
-                                    </del></div>
+                                            <span class="price" id="price_14_14"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_14"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -628,8 +748,8 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
-                                <div class="noti_sale" style="background-color: red;">-20%</div>
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
+                                <!-- <div class="noti_sale" style="background-color: red;">-20%</div> -->
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
                                 </div>
@@ -637,9 +757,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -647,12 +773,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_15_15"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_15"></span>
-                                    </del></div>
+                                            <span class="price" id="price_15_15"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <!-- <span class="price_sale" id="price_15"></span> -->
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -660,7 +786,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -669,9 +795,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -679,12 +811,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_16_16"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_16"></span>
-                                    </del></div>
+                                            <span class="price" id="price_16_16"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_16"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -692,7 +824,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -701,9 +833,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -711,12 +849,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_17_17"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_17"></span>
-                                    </del></div>
+                                            <span class="price" id="price_17_17"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_17"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -724,7 +862,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -733,9 +871,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -743,12 +887,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_18_18"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_18"></span>
-                                    </del></div>
+                                            <span class="price" id="price_18_18"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_18"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -756,7 +900,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -765,9 +909,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -775,12 +925,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_19_19"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_19"></span>
-                                    </del></div>
+                                            <span class="price" id="price_19_19"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_19"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -788,7 +938,7 @@
                     <div class="product_1">
                         <div class="product_up">
                             <a href="#">
-                                <img src="../assets/img/product/1.png" alt="">
+                                <div class="img_product"><img src="../assets/img/product/1.png" alt=""></div>
                                 <div class="noti_sale" style="background-color: red;">-20%</div>
                                 <div class="button_buy_now">
                                     <button>Mua ngay</button>
@@ -797,9 +947,15 @@
                         </div>
                         <div class="product_down">
                             <div class="product_select_option">
-                                <a href=""><div class="select_option select_option_1"></div></a>
-                                <a href=""><div class="select_option select_option_2"></div></a>
-                                <a href=""><div class="select_option select_option_3"></div></a>
+                                <a href="">
+                                    <div class="select_option select_option_1"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_2"></div>
+                                </a>
+                                <a href="">
+                                    <div class="select_option select_option_3"></div>
+                                </a>
                             </div>
                             <div class="product_info">
                                 <div class="product_name">
@@ -807,12 +963,12 @@
                                 </div>
                                 <div class="product_price">
                                     <div><ins>
-                                        <span class="price" id="price_20"></span>
-                                    </ins></div>
-                                    <div><del> 
-                                        <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
-                                        <span class="price_sale" id="price_20_20"></span>
-                                    </del></div>
+                                            <span class="price" id="price_20"></span>
+                                        </ins></div>
+                                    <div><del>
+                                            <!-- thẻ del - ins thể hiện có một phần đã xóa và một phần mới được chèn: -->
+                                            <span class="price_sale" id="price_20_20"></span>
+                                        </del></div>
                                 </div>
                             </div>
                         </div>
@@ -836,57 +992,60 @@
             <div class="container">
                 <div class="footer_container">
                     <div class="footer_up"></div>
-                        <div class="row">
-                            <div class="col-12 col-lg-3 col_info_1">
-                                <div class="footer_logo"><a href="#"><img src="../assets/img/logo/footer_logo.png"></a></div>
-                                <p>
-                                    OMDAVI được biết đến là thương hiệu thời trang nam tiên phong trong lĩnh vực 
-                                    “Thời trang nam thiết kế” với phong cách sáng tạo và thanh lịch.
-                                </p>
-                                <ul class="footer_nav_info">
-                                    <li><a href="#"><img src="../assets/img/svg/phone_footer.png"alt="">&nbsp;028.3938.1892</a></li>
-                                    <li><a href="#"><img src="../assets/img/svg/footer_info.png" alt="">&nbsp;Tìm cửa hàng</a></li>
-                                </ul>
+                    <div class="row">
+                        <div class="col-12 col-lg-3 col_info_1">
+                            <div class="footer_logo"><a href="#"><img src="../assets/img/logo/footer_logo.png"></a>
                             </div>
-                            <div class="col-12 col-lg-3 col_info_2">
-                                <ul>
-                                    <li><a href="#">Về thương hiệu</a></li>
-                                    <li><a href="#">Báo chí nói về Biluxury</a></li>
-                                    <li><a href="#">Mở đại lý</a></li>
-                                    <li><a href="#">Hệ thống showroom</a></li>
-                                    <li><a href="#">Tuyển dụng & Việc làm</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-lg-2 col_info_3">
-                                <ul>
-                                    <li><a href="#">Chính sách Membership</a></li>
-                                    <li><a href="#">Chính sách thanh toán</a></li>
-                                    <li><a href="#">Hướng dẫn mua hàng</a></li>
-                                    <li><a href="#">Chính sách đổi sản phẩm</a></li>
-                                    <li><a href="#">FAQ</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-lg-2 col_info_4">
-                                <ul>
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Youtube</a></li>
-                                    <li><a href="#">Google</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-lg-2 col_info_5">
-                                <ul class="info_5_ul">
-                                    <li>
-                                        <select name="" id="">
-                                            <option value="">Viet Nam</option>
-                                            <option>USA</option>
-                                        </select>
-                                    </li>
-                                    <li><a href="#">0986.820.750</a></li>
-                                    <li><a href="#">helpsupport@gmail.com</a></li>
-                                </ul>
-                            </div>
+                            <p>
+                                OMDAVI được biết đến là thương hiệu thời trang nam tiên phong trong lĩnh vực
+                                “Thời trang nam thiết kế” với phong cách sáng tạo và thanh lịch.
+                            </p>
+                            <ul class="footer_nav_info">
+                                <li><a href="#"><img src="../assets/img/svg/phone_footer.png"
+                                            alt="">&nbsp;028.3938.1892</a></li>
+                                <li><a href="#"><img src="../assets/img/svg/footer_info.png" alt="">&nbsp;Tìm cửa
+                                        hàng</a></li>
+                            </ul>
                         </div>
+                        <div class="col-12 col-lg-3 col_info_2">
+                            <ul>
+                                <li><a href="#">Về thương hiệu</a></li>
+                                <li><a href="#">Báo chí nói về Biluxury</a></li>
+                                <li><a href="#">Mở đại lý</a></li>
+                                <li><a href="#">Hệ thống showroom</a></li>
+                                <li><a href="#">Tuyển dụng & Việc làm</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-2 col_info_3">
+                            <ul>
+                                <li><a href="#">Chính sách Membership</a></li>
+                                <li><a href="#">Chính sách thanh toán</a></li>
+                                <li><a href="#">Hướng dẫn mua hàng</a></li>
+                                <li><a href="#">Chính sách đổi sản phẩm</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-2 col_info_4">
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Youtube</a></li>
+                                <li><a href="#">Google</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-2 col_info_5">
+                            <ul class="info_5_ul">
+                                <li>
+                                    <select name="" id="">
+                                        <option value="">Viet Nam</option>
+                                        <option>USA</option>
+                                    </select>
+                                </li>
+                                <li><a href="#">0986.820.750</a></li>
+                                <li><a href="#">helpsupport@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="footer_down">
@@ -894,7 +1053,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-9 footer_down_left">2022 OMDAVI</div>
                         <div class="col-12 col-lg-3 footer_down_right">
-                            <ul class="footer_down_ul">     
+                            <ul class="footer_down_ul">
                                 <li><a href="#">Privacy & Cookies&nbsp;|&nbsp;</a></li>
                                 <li><a href="#">Ts&Cs &nbsp; | &nbsp;</a></li>
                                 <li><a href="#">Accessibility</a></li>
@@ -907,8 +1066,9 @@
     </div>
 
 
-    
+    <script src="../assets/js/flickity.js"></script>
     <script src="../assets/js/formatPrice.js"></script>
     <script src="../assets/js/fillter_toggle.js"></script>
 </body>
+
 </html>

@@ -25,6 +25,12 @@ input[type=number].numberInput{
                 max-height: 100px;
             }
         }
+        .img_sm_res {
+            display: flex;
+            gap: 0 10px;
+            margin-top: 10px;
+            display: none;
+        }
         .product_text_info {
             .info_heading {
                 font-weight: 700;
@@ -267,18 +273,14 @@ input[type=number].numberInput{
                 font-size: 18px;
                 color: $heading-color;
                 margin-bottom: 0;
+                border-bottom: 2px solid black;
+                font-weight: 700;
             }
         }
         &_product {
             padding-top: 30px;
             display: flex;
             gap: 0 40px;
-        }
-        .accessories_title:hover {
-            p {
-                border-bottom: 2px solid black;
-                font-weight: 700;
-            }
         }
         .accessories_product_up {
             position: relative;
@@ -329,13 +331,13 @@ input[type=number].numberInput{
                     height: 18px;
                     border-radius: 100%;
                     &_1 {
-                        background-color: red;
+                        background-color: black;
                     }
                     &_2 {
-                        background-color: blue;
+                        background-color: #CEB37F;
                     }
                     &_3 {
-                        background-color: yellow;
+                        background-color: gray;
                     }
                     &:hover {
                         border: 3px solid gray;
@@ -379,12 +381,8 @@ input[type=number].numberInput{
                 font-size: 18px;
                 color: $heading-color;
                 margin-bottom: 0;
-            }
-            &:hover {
-                p {
-                    font-weight: 700;
-                    border-bottom: 2px solid black;
-                }
+                font-weight: 700;
+                border-bottom: 2px solid black;
             }
             }
             .main-carousel {
@@ -393,7 +391,90 @@ input[type=number].numberInput{
                 }
 
             }
+
+            .related_product_up {
+                position: relative;
+            }
+            .button_buy_now {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                button {
+                    background-color: $color-primary;
+                    width: 133px;
+                    height: 48px;
+                    border: none;
+                }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+            }
+            .related_product_up:hover {
+                .button_buy_now {
+                    display: flex;
+                }
+            }
+            .noti_sale {
+                width: 50px;
+                height: 32px;
+                position: absolute;
+                top: 9px;
+                left: -9.5px;
+                text-align: center;
+                line-height: 32px;
+                color: white;
+                font-size: 12.6px;
+            }
+            .product_select_option {
+                display: flex;
+                gap: 0 11px;
+                padding-top: 19px;
+                .select_option {
+                    width: 18px;
+                    height: 18px;
+                    border-radius: 100%;
+                    &_1 {
+                        background-color: black;
+                    }
+                    &_2 {
+                        background-color: #CEB37F;
+                    }
+                    &_3 {
+                        background-color: gray;
+                    }
+                    &:hover {
+                        border: 3px solid gray;
+                    }
+                }
+            }
+            .product_info {
+                padding-top: 12px;
+                .product_name {
+                    a {
+                        color: #4F4F4F;
+                        text-decoration: none;
+                    }
+                }
+                .product_price {
+                    .price {
+                        color: $black-text-primary;
+                        font-weight: 700;
+                    }
+                    .price_sale {
+                        color: $gray-text-primary;
+                    }
+                }
+            }
         }
     }
 
-
+@media screen and (max-width: 991px) {
+    .product_img_sm {
+        display: none;
+    }
+    .main_detail_product .product_info .img_sm_res {
+        display: flex;
+    }
+}

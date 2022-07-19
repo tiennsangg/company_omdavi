@@ -1,6 +1,4 @@
-@import './global';
 @import './reset';
-@import './header';
-@import './slider';
-@import './main';
-@import './footer';
+@import './variables';
+@import '../scss/product/global_product';
+@import './main_index.scss';
